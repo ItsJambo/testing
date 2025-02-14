@@ -1,0 +1,15 @@
+name: ThunderSpaceBetterPotions
+version: '2.0'
+main: com.itsjambo.thunderspacebetterpotions.ThunderSpaceBetterPotions
+api-version: '1.16'
+commands:
+  tsbp-create:
+    description: Create a new potion
+  tsbp-help:
+    description: Show help for the plugin
+  tsbp-id:
+    description: Get potion by ID
+  tsbp-reload:
+    description: Reload the configuration
+  tsbp-addeffect:
+    description: Add an effect to an existing potion
