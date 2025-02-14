@@ -149,6 +149,7 @@ public final class ThunderSpaceBetterPotions extends JavaPlugin {
             case "DOLPHINS_GRACE" -> Color.fromRGB(0, 255, 238);
             case "BAD_OMEN" -> Color.fromRGB(0, 0, 0);
             case "HERO_OF_THE_VILLAGE" -> Color.fromRGB(121, 219, 0);
+            case "STRENGTH" -> Color.fromRGB(255, 0, 0);
             default -> throw new IllegalStateException("Unexpected value: " + effectName);
         };
     }
